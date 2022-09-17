@@ -1,0 +1,59 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>70</x><y>10</y><w>230</w><h>220</h></coordinates><panel_attributes>Class Records
+--
+#id: int
+#name: string
+#description: string
+#code: int
+--
++getId()int
++getName()string
++getDescription()string
++getCode()int
++addClass(Name, Description, Code)
++updateClass(Name, Description, Class)
++deleteClass()
++assignTeacher(Teacher_name)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>600</x><y>0</y><w>230</w><h>230</h></coordinates><panel_attributes>Teacher
+--
+#id: int
+#name: string
+#class: string
+#description: string
+#code: int
+--
++getId()int
++getName()string
++getDescription()string
++getCode()int
++addTeacher(Name, Description, Code)
++updateTeacher(Name, Description, Code)
++deleteTeacher()
++assignedClasses(Class)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>70</x><y>290</y><w>230</w><h>160</h></coordinates><panel_attributes>Student
+--
+#id: int
+#name: string
+#description: string
+#code: int
+--
++getId()int
++getName()string
++getDescription()string
++getCode()int
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>600</x><y>270</y><w>230</w><h>230</h></coordinates><panel_attributes>Class Roster
+--
+#id: int
+#name: string
+#class: string
+#description: string
+#code: int
+--
++getId()int
++getName()string
++getDescription()string
++getCode()int
++addRosterName(Name, Description, Code)
++updateRoster(Name, Description, Code)
++deleteRoster()
++fileUpload(File)
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
